@@ -1,0 +1,46 @@
+.box-video{
+  width: 85rem;
+  height: 45rem;
+  background-color: green;
+  margin: 1rem auto;
+}
+
+.box-video .video-cheers{
+  width: 85rem;
+  height: 45rem;
+}
+
+.box-principal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-principal h1{
+  font-weight: bold;
+  border-bottom: 3px solid;
+  border-color: #CE7D2E;
+}
+
+.box-principal .artesanal-perfeita{
+  display: flex;
+  margin: 3rem;
+}
+
+.box-principal .artesanal-perfeita .img-duvida{
+  margin: 1rem;
+}
+
+.box-principal .artesanal-perfeita .img-duvida .tamanho-img{
+  width: 20rem;
+  height: 30rem;
+}
+
+.box-principal .artesanal-perfeita .text-explicacao{
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+
+
+

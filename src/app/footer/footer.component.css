@@ -1,0 +1,15 @@
+.footer-brejas {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background-image: url("/assets/img/3_copos.jpg");
+  background-position: center, top;
+  height: 22rem;
+  overflow: auto;
+}
+
+span{
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: bold;
+}

@@ -3,19 +3,30 @@
 }
 
 .header-brejas{
+  background-image: url("/assets/img/espuma-2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  height: 5rem;
+  height: 10rem;
   background-color: #e9ecef;
   padding: 0 2rem;
 }
 
 .titulo-principal{
-  color: #dd9933;
+  color: #b34419;
 }
 
 .cor-menus{
-  color: #dd9933 !important;
+  color: #b34419 !important;
   font-weight: 600;
 }
+
+.dropdown-menu{
+  background-image: url("/assets/img/espuma-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
