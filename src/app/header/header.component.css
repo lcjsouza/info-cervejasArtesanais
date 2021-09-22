@@ -1,21 +1,99 @@
-.imagem-logo{
+/* .imagem-logo{
   width: 10rem;
-}
+} */
 
-.header-brejas{
+.header-brejas {
   background-image: url("/assets/img/espuma-2.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
   display: flex;
-  justify-content: space-around;
+  height: 5rem;
   align-items: center;
-  height: 10rem;
-  background-color: #e9ecef;
-  padding: 0 2rem;
+  justify-content: space-between;
 }
 
-.titulo-principal{
+.header-brejas .titulo-principal {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #b34419;
+  margin: 0 1rem;
+}
+
+.header-brejas .menu-desktop {
+  display: none;
+}
+
+/* Menu Mobile */
+.menu-mobile {
+ /*  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 4.8rem;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px; */
+
+}
+.menu-suspenso {
+  display: block;
+  margin: 0 1.4rem;
+  list-style: none;
+
+}
+.menu-suspenso li {
+  position: relative;
+
+}
+.menu-suspenso li a {
+  color: #b34419;
+  text-decoration: none;
+  padding: 2.4rem 1rem;
+  display: block;
+  font-family: 'ClanProBold', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.menu-suspenso li ul {
+  position: absolute;
+  top: 4.25rem;
+  left: -21rem;
+  background-image: url("/assets/img/espuma-2.jpg");
+  display: none;
+  z-index: 1;
+}
+.menu-suspenso li:hover ul,
+.menu-suspenso li.over ul {
+  display: flex;
+  flex-direction: column;
+  top: 3.25rem;
+  width: 23.8rem;
+}
+.menu-suspenso li ul li {
+  border-bottom: 0.12rem solid #6AA2B9;
+  border-radius: 0.25rem;
+  list-style-type: none;
+}
+
+
+/* @media (max-width: 1440px) {
+
+  .header-brejas{
+    background-image: url("/assets/img/espuma-2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10rem;
+    background-color: #e9ecef;
+    padding: 0 2rem;
+  }
+} */
+
+/* .titulo-principal{
   color: #b34419;
 }
 
@@ -29,4 +107,4 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+ */

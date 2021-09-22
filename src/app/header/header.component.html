@@ -1,12 +1,41 @@
 <div class="header-brejas">
-  <div class="imagem-logo"></div>
+  <!-- <div class="imagem-logo"></div> -->
   <h1 class="titulo-principal">Brejas Artesanais</h1>
-  <nav class="navbar navbar-expand-lg navbar-light">
+  <!-- Menu Mobile -->
+  <!-- Menu Mobile -->
+  <div class="menu-mobile">
+    <div class="buttonHambuguer">
+      <ul class="menu-suspenso">
+        <li>
+          <svg width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="24" height="2" rx="1" fill="white" />
+            <rect y="8" width="24" height="2" rx="1" fill="white" />
+            <rect y="16" width="24" height="2" rx="1" fill="white" />
+          </svg>
+          <ul>
+            <li><a href="#" onclick="toFichaDeCadastro(event)">Puro Malte</a></li>
+            <li><a href="#" onclick="toNumerosSorteados(event)">Ipa's</a></li>
+            <li><a href="#" onclick="toSorteio(event)">Para o Calor</a></li>
+            <li><a href="#" onclick="toPremiacao(event)">Para o Frio</a></li>
+            <li><a href="#" onclick="toMeusDocumentos(event)">Witbier</a></li>
+            <li><a href="#" onclick="toCondicoesGerais(event)">Belgas</a></li>
+            <li><a href="#" onclick="toCondicoesGerais(event)">Alemãs</a></li>
+            <li><a href="#" onclick="toCondicoesGerais(event)">Inglesas</a></li>
+            <li><a href="#" onclick="toCondicoesGerais(event)">Brasileiras</a></li>
+            <li><a href="#" onclick="toCondicoesGerais(event)">Melhor Custo Benefício</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- Menu Desktop -->
+  <nav class="navbar navbar-expand-lg navbar-light menu-desktop">
     <div class="container-fluid collapse navbar-collapse">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item"><a class="nav-link active cor-menus" href="#">Home</a></li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle cor-menus" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Estilos</a>
+          <a class="nav-link dropdown-toggle cor-menus" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false" href="#">Estilos</a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item cor-menus" href="#">Puro Malte</a>
             <a class="dropdown-item cor-menus" href="#">Ipa's</a>

@@ -38,6 +38,9 @@
 }
 
 .box-principal .artesanal-perfeita .text-explicacao{
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
   margin: 1rem;
   font-size: 1.5rem;
 }
