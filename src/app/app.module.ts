@@ -5,8 +5,8 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { ConteudoComponent } from './conteudo/conteudo.component';
-import { CarrosselComponent } from './carrossel/carrossel.component';
-import { CervejasComponent } from './cervejas/cervejas.component';
+import { CarouselCervejasComponent } from './carousel-cervejas/carousel-cervejas.component';
+import { EstilosCervejasComponent } from './estilos-cervejas/estilos-cervejas.component';
 
 @NgModule({
   declarations: [
@@ -14,8 +14,8 @@ import { CervejasComponent } from './cervejas/cervejas.component';
     HeaderComponent,
     FooterComponent,
     ConteudoComponent,
-    CarrosselComponent,
-    CervejasComponent
+    CarouselCervejasComponent,
+    EstilosCervejasComponent
   ],
   imports: [
     BrowserModule,

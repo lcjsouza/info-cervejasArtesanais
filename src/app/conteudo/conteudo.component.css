@@ -1,49 +1,111 @@
-.box-video{
-  width: 85rem;
-  height: 45rem;
+.box-video {
+  width: 100%;
+  height: 12rem;
   background-color: green;
-  margin: 1rem auto;
+  margin: 0.5rem auto;
+}
+.box-video .video-cheers {
+  width: 100%;
+  height: 100%;
 }
 
-.box-video .video-cheers{
-  width: 85rem;
-  height: 45rem;
-}
-
-.box-principal{
+.box-principal {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.box-principal h1{
+.box-principal h1 {
   font-weight: bold;
-  border-bottom: 3px solid;
-  border-color: #CE7D2E;
+  border-bottom: 2.5px solid;
+  border-color: #ce7d2e;
+  font-size: 1.1rem;
+  margin-top: 2rem;
 }
 
-.box-principal .artesanal-perfeita{
+.box-principal .artesanal-perfeita {
   display: flex;
-  margin: 3rem;
-}
-
-.box-principal .artesanal-perfeita .img-duvida{
-  margin: 1rem;
-}
-
-.box-principal .artesanal-perfeita .img-duvida .tamanho-img{
-  width: 20rem;
-  height: 30rem;
-}
-
-.box-principal .artesanal-perfeita .text-explicacao{
-  display: flex;
+  flex-direction: column;
   align-items: center;
-  padding-left: 2rem;
-  margin: 1rem;
-  font-size: 1.5rem;
 }
 
+.box-principal .artesanal-perfeita .img-duvida {
+  margin: 1rem;
+}
 
+.box-principal .artesanal-perfeita .img-duvida .tamanho-img {
+  width: 10rem;
+  height: 15rem;
+}
 
+.box-principal .artesanal-perfeita .text-explicacao {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+}
+
+@media (min-width: 768px) {
+  .box-video {
+    width: 90%;
+    height: 24rem;
+    margin: 1rem auto;
+  }
+  .box-principal {
+    width: 90%;
+    margin: auto;
+  }
+  .box-principal h1 {
+    border-bottom: 3px solid;
+    font-size: 2rem;
+  }
+  .box-principal .artesanal-perfeita .img-duvida .tamanho-img {
+    width: 15rem;
+    height: 20rem;
+  }
+  .box-principal .artesanal-perfeita .text-explicacao {
+    font-size: 1.3rem;
+    margin: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .box-video {
+    height: 33rem;
+  }
+  .box-principal h1 {
+    font-weight: bold;
+    border-bottom: 3px solid;
+    border-color: #ce7d2e;
+    font-size: 2.8rem;
+  }
+  .box-principal .artesanal-perfeita {
+    flex-direction: row;
+  }
+  .box-principal .artesanal-perfeita .img-duvida .tamanho-img {
+    width: 15rem;
+    height: 25rem;
+  }
+  .box-principal .artesanal-perfeita .text-explicacao {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .box-video {
+    height: 46rem;
+  }
+  .box-principal h1 {
+    border-bottom: 4px solid;
+    border-color: #ce7d2e;
+    font-size: 4rem;
+  }
+  .box-principal .artesanal-perfeita .img-duvida .tamanho-img {
+    width: 25rem;
+    height: 35rem;
+  }
+  .box-principal .artesanal-perfeita .text-explicacao {
+    font-size: 2rem;
+    margin-top: 4rem;
+  }
+}

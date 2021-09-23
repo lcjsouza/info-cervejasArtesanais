@@ -1,0 +1,10 @@
+.carousel-brejas{
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  margin: auto;
+}
+
+.carousel-brejas div .img-brejas{
+  height: 45rem !important;
+}
